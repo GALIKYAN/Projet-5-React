@@ -1,0 +1,14 @@
+.card {
+    background-color: #ff5a5f;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
