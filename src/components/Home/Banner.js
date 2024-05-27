@@ -1,9 +1,10 @@
 import React from 'react'
-import '../style/Banner.css'
+import '../Assets/style/Banner.css'
 
 function Banner (){
     return(
     <div className="banner">
+        <div class="dark-overlay"></div>
         <h1>Chez vous, partout et ailleurs</h1>
         </div>
         )

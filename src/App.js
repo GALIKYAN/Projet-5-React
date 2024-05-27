@@ -1,25 +1,20 @@
-import React from 'react';
-import Header from './components/Header';
-import Banner from './components/Banner';
-import Card from './components/Card';
+import React from "react"
+import Home from "./components/Pages/Home"
+import Error from "./components/Pages/Error"
+import About from "./components/Pages/About"
+import { Routes, Route } from "react-router-dom"
+import "./App.css"
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Banner />
-      <div className="cards-container">
-        <Card title="Titre de la location" />
-        <Card title="Titre de la location" />
-        <Card title="Titre de la location" />
-        <Card title="Titre de la location" />
-        <Card title="Titre de la location" />
-        <Card title="Titre de la location" />
-      </div>
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/About" element={<About/>}/>
+      <Route path="*" element={<Error/>}/>
+      </Routes> 
     </div>
   );
 }
-
 export default App;
