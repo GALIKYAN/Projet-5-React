@@ -11,8 +11,8 @@ const Houses = () => {
   //const navigate = useNavigate()
 
   if (!item) {
-    window.location.href = "/error";
-   // navigate('/error')
+   window.location.href = "/error";
+  // navigate('/error')
     //return null; 
   }
 
