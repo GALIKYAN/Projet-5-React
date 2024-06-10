@@ -5,12 +5,12 @@
     margin: auto;
   }
   
-.details-picture {
-width: 1240px;
-height: 415px;
+  .details-picture {
+    width: 1240px;
+    height: 415px;
   }
   
-.slideshow-button {
+  .slideshow-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -20,14 +20,14 @@ height: 415px;
     padding: 10px;
     cursor: pointer;
     border-radius: 50%;
-  }
   
-  .slideshow-button-left {
-    left: 10px;
-  }
+    &-left {
+      left: 10px;
+    }
   
-  .slideshow-button-right {
-    right: 10px;
+    &-right {
+      right: 10px;
+    }
   }
   
   .slideshow-indicator {

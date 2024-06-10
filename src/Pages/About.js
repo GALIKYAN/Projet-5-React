@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import "../Assets/style/About.css"
 import Header from "../components/Header"
 import Footer from "../components/Footer";
-import about from "../Assets/images/about.png";
+import about from "../assets/images/about.png";
 
 function About() {
   const [openSections, setOpenSections] = useState({
