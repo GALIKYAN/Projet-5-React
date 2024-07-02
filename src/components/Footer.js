@@ -3,6 +3,7 @@ import footer from '../assets/images/footer.png'
 
 
 
+
 function Footer(){
   return (
     <footer>

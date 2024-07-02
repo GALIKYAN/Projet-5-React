@@ -7,10 +7,10 @@ import Footer from "../components/Footer";
 function Home() {
   return (
     <div className="home-container">
-      <Header />
-      <Banner />
-      <CardList />
-      <Footer />
+      <Header/>
+      <Banner/>
+      <CardList/>
+      <Footer/>
     </div>
   );
 }
